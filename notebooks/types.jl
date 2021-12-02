@@ -7,7 +7,7 @@ using InteractiveUtils
 # ╔═╡ 7deebfca-c352-488c-a9fa-3c40e583126c
 md"""
 
-- *Notebook version*: **0.1.0**
+- *Notebook version*: **0.2.0**
 - *Prerequisites*:  none
 """
 
@@ -50,6 +50,12 @@ typeof(24) |> supertype |> supertype
 # ╔═╡ e190c422-6fe7-407d-89f9-b9c7ec5852ab
 "Iliad"
 
+# ╔═╡ e5a306c4-f3c1-48c1-83fa-b3b852c28246
+'I'
+
+# ╔═╡ 9581f15a-e0ff-4d66-9e4f-bedc850a709a
+'α'
+
 # ╔═╡ b471850e-5907-4943-9c3c-a34e93cf7532
 books == 24
 
@@ -73,6 +79,8 @@ typeof(checkcount)
 # ╠═a309ea2f-e7ff-491c-8bd7-9b1f236ef30d
 # ╠═bec93a17-5416-484f-9ec1-7ed070eca037
 # ╠═e190c422-6fe7-407d-89f9-b9c7ec5852ab
+# ╠═e5a306c4-f3c1-48c1-83fa-b3b852c28246
+# ╠═9581f15a-e0ff-4d66-9e4f-bedc850a709a
 # ╠═b471850e-5907-4943-9c3c-a34e93cf7532
 # ╠═3dbaf3ab-be11-4cea-95c0-af4b951533a3
 # ╠═eaaf6abb-1488-46da-af65-d448365d910c

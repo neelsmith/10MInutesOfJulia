@@ -22,6 +22,11 @@ I especially hope that these notebooks might be useful for students interested i
 1. [Functions](./fundamentals/functions.html)
 1. String manipulation.
 1. Arrays.
+1. Reading and writing (IO)
+
+Aside:
+
+1. Use PlutoUI widgets to make notebooks interactive
 
 
 ## Building on fundamentals
