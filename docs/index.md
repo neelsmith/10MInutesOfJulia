@@ -1,4 +1,3 @@
-# 10MinutesOfJulia
 
 This site hosts Pluto notebooks introducing basic features of the Julia language.
 
