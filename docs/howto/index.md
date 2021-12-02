@@ -9,7 +9,7 @@ You can read through the Pluto notebooks hosted here, but the only way to become
 
 Each notebook has a large button like this
 
-![edit-run](./edit-run.png)
+[![edit-run](./edit-run-small.png)](./edit-run.png)
 
 
 [![options](./options-small.png)](./options.png)
