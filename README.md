@@ -1,1 +1,1 @@
-# 10MInutesOfJulia
+# 10MinutesOfJulia
