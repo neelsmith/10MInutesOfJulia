@@ -1,13 +1,11 @@
 # 10MinutesOfJulia
 
-> Pluto notebooks you can read through in 10 minutes, introducing basic features of the Julia language.
+This site hosts Pluto notebooks introducing basic features of the Julia language.
+
+you can read through in 10 minutes, 
 
 
-## About
-
-TBA
-
-## Prerequisites
+- Preqrequisites and [how to use this site](./howto/)
 
 ## Notebooks
 
