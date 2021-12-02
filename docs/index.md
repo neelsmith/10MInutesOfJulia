@@ -18,8 +18,8 @@ I especially hope that these notebooks might be useful for students interested i
 
 
 1. [Types and values](./fundamentals/types.html)
-1. Custom types.
-1. Functions.
+1. [Custom types](./fundamentals/customtypes.html)
+1. [Functions](./fundamentals/functions.html)
 1. String manipulation.
 1. Arrays.
 
