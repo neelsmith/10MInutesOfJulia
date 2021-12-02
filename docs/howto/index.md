@@ -12,6 +12,8 @@ Each notebook has a large button like this
 ![edit-run](./edit-run.png)
 
 
-![options](./options.png)
+[![options](./options-small.png)](./options.png)
+
+
 ## Running notebooks on binder
 
