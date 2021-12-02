@@ -2,4 +2,4 @@
 
 > Pluto notebooks you can read through in 10 minutes, introducing basic features of the Julia language.
 
-See the [web site](https://neelsmith.github.io/10MinutesOfJulia/).
+See the web site at <https://neelsmith.github.io/10MinutesOfJulia/>.
