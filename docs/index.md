@@ -2,7 +2,7 @@
 
 This site hosts Pluto notebooks introducing basic features of the Julia language. You should be able to read through a notebook in 10 minutes or less, and use it as a starting point for experimenting with your own code.
 
-## Who is it for?
+## Who is this site for?
 
 There are *lots* of resources for learning Julia, aimed at many different audiences.  This site assumes no background of any kind other than curiosity. If you've never programmed before, you should be able to work through the notebooks here in an hour or two.  If you spread that time out over a few days with a little additional experimentation of your own, you should feel capable of starting to do some practical things with Julia.  
 
