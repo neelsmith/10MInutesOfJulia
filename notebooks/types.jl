@@ -6,12 +6,22 @@ using InteractiveUtils
 
 # ╔═╡ 7deebfca-c352-488c-a9fa-3c40e583126c
 md"""
-*Notebook version*: **0.1.0**
 
+- *Notebook version*: **0.1.0**
+- *Prerequisites*:  none
 """
 
 # ╔═╡ 33b1d6be-5371-11ec-306b-9360e2f906ec
 md"# Types and values"
+
+# ╔═╡ 902f7779-08f7-46b9-83ec-e58aa56b226c
+md"""## Concepts
+
+> TBA
+"""
+
+# ╔═╡ 63847950-1a62-490c-9c5d-cd7ab82e937e
+md"Show and tell:"
 
 # ╔═╡ 89e923c5-e68a-47ac-bbc0-e4249e2fdb82
 "Iliad"
@@ -52,6 +62,8 @@ typeof(checkcount)
 # ╔═╡ Cell order:
 # ╟─7deebfca-c352-488c-a9fa-3c40e583126c
 # ╟─33b1d6be-5371-11ec-306b-9360e2f906ec
+# ╟─902f7779-08f7-46b9-83ec-e58aa56b226c
+# ╟─63847950-1a62-490c-9c5d-cd7ab82e937e
 # ╠═89e923c5-e68a-47ac-bbc0-e4249e2fdb82
 # ╟─fade998f-152a-4cb0-8aec-fddd75dc0b3f
 # ╠═8e726110-5a49-4ead-a6d6-b1bd15929cf2
