@@ -17,9 +17,9 @@ I especially hope that these notebooks might be useful for students interested i
 >  **NB**: Each notebook displays a version number using the major/minor/patch scheme of [semantic versioning](https://semver.org).  Versions < 1.0.0 are incomplete work in progress. Changes in **major** number indicate a change incompatible or conflicting with the previous version.  Changes in **minor** number indicate addition of new material compatible with the prior version.  Changes in **patch** numbers indicate correction of errors.
 
 
-1. [Types and values](./fundamentals/types.html)
-1. [Custom types](./fundamentals/customtypes.html)
-1. [Functions](./fundamentals/functions.html)
+1. [Types and values](./fundamentals/types.html):  *v. 1.0.0*
+1. [Custom types](./fundamentals/customtypes.html) (forthcoming)
+1. [Functions](./fundamentals/functions.html) (forthcoming)
 1. String manipulation.
 1. Arrays.
 1. Reading and writing (IO)
