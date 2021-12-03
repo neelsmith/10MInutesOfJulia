@@ -7,17 +7,76 @@ using InteractiveUtils
 # ╔═╡ 7deebfca-c352-488c-a9fa-3c40e583126c
 md"""
 
-- *Notebook version*: **0.2.0**
+- *Notebook version*: **0.3.0**
 - *Prerequisites*:  none
 """
 
 # ╔═╡ 33b1d6be-5371-11ec-306b-9360e2f906ec
-md"# Types and values"
+md"# Objects, variables and types"
 
-# ╔═╡ 902f7779-08f7-46b9-83ec-e58aa56b226c
-md"""## Concepts
+# ╔═╡ 9abeaae6-60f5-4fc4-88f8-83b8ec4e57ee
+md"""
 
-> TBA
+> ☞ *Objects* are the nouns of the Julia language;  *functions* are the its verbs. (We'll introduce *functions* in [this 10-minute notebook](https://neelsmith.github.io/10MinutesOfJulia/fundamentals/functions.html).)
+
+You can create an object by simply entering its value (e.g., typing it into a Julia REPL, or entering in the cell of a Pluto notebook.) 
+
+When you enter an object in a Pluto notebook cell, Pluto displays its value immediately above it.  Let's look at a couple of examples.
+
+"""
+
+# ╔═╡ ac684d89-0cc8-42c0-a3cd-b8132b287ae3
+"Four score and seven years ago"
+
+# ╔═╡ 00117930-d7b2-416b-8fdd-86681c37a75c
+87
+
+# ╔═╡ 4e08346b-4696-4c60-acc5-94294fea1a33
+md"""
+> ☞  Every object has a *type*.  You can use the `typeof` function to find out what type  an object belongs to.
+"""
+
+# ╔═╡ 908f72a3-15e2-42c0-806a-8ad213d0e6ee
+typeof("Four score and seven years ago")
+
+# ╔═╡ 616ed394-4776-447f-bfe0-36138482c258
+typeof("87")
+
+# ╔═╡ cc8f4f4b-33f9-457d-bd0c-f712c7a6045c
+typeof(87)
+
+# ╔═╡ f926c28b-6f11-400d-b7c9-6c03375d6ad6
+typeof(87.5)
+
+# ╔═╡ 027442f9-7fc3-453b-ad7d-a4660a529eac
+md"""
+Notice that when we entered a series of characters between quotation marks, Julia created an object of type `String`; when we entered digits, it created an `Int64`. When we entered digits with a decimal component, it created a `Float64`.  
+"""
+
+# ╔═╡ c4c6ed6b-3e8a-41e6-bf6e-12e264bfdc08
+md"""
+
+> ☞ *Variables* are names of objects.  You can create a variable using *assignment operator*, `=`.
+"""
+
+# ╔═╡ 8164a905-e753-4f26-9724-dd30f88dba34
+phrase = "Four score and seven years ago"
+
+# ╔═╡ f2207a95-586b-4cfa-85c4-c184160e530d
+md"""
+Now you can use the variable `phrase` (the left side of the assignment) to refer to the `String` object you created between quotation marks (the right side of the assignment).  Read this in English as, "The variable `phrase` is assigned the value \"Four score and seven years ago\"".
+
+"""
+
+# ╔═╡ a9fd2bdf-7415-41af-830e-a6d56a33fbff
+typeof(phrase)
+
+# ╔═╡ fa719f3f-1bcc-40fa-ba2f-b8edb6acb64e
+html"""
+
+<br/><br/><br/><br/><br/><br/>
+<hr/><hr/>
+<b>Stuff to quarry</b>
 """
 
 # ╔═╡ 63847950-1a62-490c-9c5d-cd7ab82e937e
@@ -66,9 +125,22 @@ checkcount = books == 24
 typeof(checkcount)
 
 # ╔═╡ Cell order:
-# ╠═7deebfca-c352-488c-a9fa-3c40e583126c
+# ╟─7deebfca-c352-488c-a9fa-3c40e583126c
 # ╟─33b1d6be-5371-11ec-306b-9360e2f906ec
-# ╟─902f7779-08f7-46b9-83ec-e58aa56b226c
+# ╟─9abeaae6-60f5-4fc4-88f8-83b8ec4e57ee
+# ╠═ac684d89-0cc8-42c0-a3cd-b8132b287ae3
+# ╠═00117930-d7b2-416b-8fdd-86681c37a75c
+# ╟─4e08346b-4696-4c60-acc5-94294fea1a33
+# ╠═908f72a3-15e2-42c0-806a-8ad213d0e6ee
+# ╠═616ed394-4776-447f-bfe0-36138482c258
+# ╠═cc8f4f4b-33f9-457d-bd0c-f712c7a6045c
+# ╠═f926c28b-6f11-400d-b7c9-6c03375d6ad6
+# ╟─027442f9-7fc3-453b-ad7d-a4660a529eac
+# ╟─c4c6ed6b-3e8a-41e6-bf6e-12e264bfdc08
+# ╠═8164a905-e753-4f26-9724-dd30f88dba34
+# ╟─f2207a95-586b-4cfa-85c4-c184160e530d
+# ╠═a9fd2bdf-7415-41af-830e-a6d56a33fbff
+# ╟─fa719f3f-1bcc-40fa-ba2f-b8edb6acb64e
 # ╟─63847950-1a62-490c-9c5d-cd7ab82e937e
 # ╠═89e923c5-e68a-47ac-bbc0-e4249e2fdb82
 # ╟─fade998f-152a-4cb0-8aec-fddd75dc0b3f
