@@ -18,7 +18,7 @@ I especially hope that these notebooks might be useful for students interested i
 
 
 1. [Objects, variables and types](./fundamentals/types.html):  *v. 1.0.0*
-1. [Custom types](./fundamentals/customtypes.html) (forthcoming)
+1. [Custom types](./fundamentals/customtypes.html):  *v. 1.0.0*
 1. [Functions](./fundamentals/functions.html) (forthcoming)
 1. String manipulation.
 1. Arrays.

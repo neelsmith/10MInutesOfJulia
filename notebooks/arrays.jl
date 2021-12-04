@@ -10,6 +10,17 @@ md"""# Arrays
 >TBA
 """
 
+# ╔═╡ 9a31cd5c-796b-49b4-a2ef-505c133fdc4e
+md"""
+- Strings are arrays of chars
+- iteration with `for`
+- `push!` and mutable/immutable objects
+
+"""
+
+# ╔═╡ 3101b0b9-2675-4b49-9b2f-7dcb75fcda50
+
+
 # ╔═╡ ecb93a4a-56d5-48cd-808c-7af977c7b171
 fourscore = "Four score and seven years ago our fathers brought forth, on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal"
 
@@ -61,7 +72,9 @@ end
 clausepunct(fourscore)
 
 # ╔═╡ Cell order:
-# ╠═061e6b80-5388-11ec-32ee-4b120157f301
+# ╟─061e6b80-5388-11ec-32ee-4b120157f301
+# ╠═9a31cd5c-796b-49b4-a2ef-505c133fdc4e
+# ╠═3101b0b9-2675-4b49-9b2f-7dcb75fcda50
 # ╠═ecb93a4a-56d5-48cd-808c-7af977c7b171
 # ╠═0d7690b7-a544-45c8-9bc9-a7515f6a2b49
 # ╠═6c0f7361-e109-4b49-9f38-9859c9e8ec58
