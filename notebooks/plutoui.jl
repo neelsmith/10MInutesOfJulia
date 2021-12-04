@@ -10,6 +10,15 @@ md"""# PlutoUI widgets
 > TBA
 """
 
+# ╔═╡ 99565dac-93ab-48da-b7e9-06b430d8ff23
+"Format a list of items as a string with proper usage of Oxford comma."
+function oxfordcomma(arr)
+	commas = join(arr, ", ")
+	parts = rsplit(commas, ", ", limit = 2)
+	parts[1] * ", and " * parts[2]
+	
+end
+
 # ╔═╡ e1563c8f-99c9-4a59-b192-b5381694d9e1
 md"""## Types """
 
@@ -51,6 +60,7 @@ end
 
 # ╔═╡ Cell order:
 # ╠═76bf10f4-53a1-11ec-2844-79a067c21a9b
+# ╟─99565dac-93ab-48da-b7e9-06b430d8ff23
 # ╟─e1563c8f-99c9-4a59-b192-b5381694d9e1
 # ╠═93ab0da5-01fd-4e85-9061-10f580baadbd
 # ╠═15d8166e-14ef-4b6f-9e51-aa120085f23f
