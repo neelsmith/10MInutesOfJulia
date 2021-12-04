@@ -28,6 +28,15 @@ abstract type Phone end
 # ╔═╡ 15d8166e-14ef-4b6f-9e51-aa120085f23f
 abstract type Contact end
 
+# ╔═╡ 4b48bf35-1400-4ca6-8f89-e406602835b0
+"Read a string of delimited-text data and create a `Contact` from it."
+function read(s::AbstractString; delimiter = "|")::Contact
+	parts = split(s, delimiter)
+	contact = if lowercase(parts[2]) == "person"
+	elseif lowercase(parts[2]) == "business"
+	end
+end
+
 # ╔═╡ ee7bd2b7-e8ba-493b-b211-df09b289a44a
 "Contact card for a business"
 struct Business <: Contact
@@ -61,6 +70,7 @@ end
 # ╔═╡ Cell order:
 # ╠═76bf10f4-53a1-11ec-2844-79a067c21a9b
 # ╟─99565dac-93ab-48da-b7e9-06b430d8ff23
+# ╠═4b48bf35-1400-4ca6-8f89-e406602835b0
 # ╟─e1563c8f-99c9-4a59-b192-b5381694d9e1
 # ╠═93ab0da5-01fd-4e85-9061-10f580baadbd
 # ╠═15d8166e-14ef-4b6f-9e51-aa120085f23f
