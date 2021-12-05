@@ -137,7 +137,7 @@ end
 md"""Here's the contact number for Orange Phone in Brussels"""
 
 # ╔═╡ 50be797a-11e8-4f17-a900-cfcdc7731171
-orangephone = BelgianPhone("218", "6207")
+orangephone = BelgianPhone("0218", "6207")
 
 # ╔═╡ 4b56e1f2-ff76-457e-9d91-2a1747f3f30b
 typeof(orangephone)
