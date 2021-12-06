@@ -26,6 +26,9 @@ As these notebooks introduce you to some fundamentals of the Julia language, you
 1. Reading and writing (IO)
 1. Putting together an interactive app with PlutoUI widgets
 
+Optional:
+
+1. Regular expressions
 
 ## Building on fundamentals
 

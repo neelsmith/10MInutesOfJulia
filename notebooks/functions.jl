@@ -37,10 +37,10 @@ md"""## Error checking strings for a `BelgianPhone`
 # ╔═╡ 25c85cc9-7f00-4262-bffb-9de5302662d5
 md"""
 Orange phone in Brussels
- +32 2 218 62 07
+ +32 02 218 62 07
 
 Proximus in Louvain
-· +32 10 23 36 59
+· +32 010 23 36 59
 """
 
 # ╔═╡ 49b6abf5-5526-4b1c-a01e-339e5eb8674b
@@ -111,6 +111,12 @@ struct BelgianPhone <: Phone
 	subscriber
 end
 
+# ╔═╡ 6c069e1b-f60d-48d3-b205-13ceded8958d
+ Dict(
+	 "+32" => BelgianPhone,
+	 "+1" => USPhone
+ )
+
 # ╔═╡ 6eb76538-890c-4f34-aa63-6e907e78d0ac
 "Construct a `BelgianPhone` from a string."
 function belgianPhone(s::AbstractString)
@@ -176,6 +182,7 @@ orangephone = BelgianPhone("0218", "6207")
 # ╟─a62c27e9-789a-4495-b7dc-229ecd0eaf18
 # ╠═d0c3985a-5387-11ec-1f7a-1f3d95a47e18
 # ╠═1a81efc8-9136-417c-a2ac-67f2fc699f15
+# ╠═6c069e1b-f60d-48d3-b205-13ceded8958d
 # ╟─7baed31b-762d-498d-82f8-65d6486fbb61
 # ╠═08120255-6260-4437-921d-fbcb99c95447
 # ╠═bd461172-d4b4-4eb3-a3ff-31f8aed2a4a9

@@ -8,13 +8,102 @@ using InteractiveUtils
 md"""
 
 - *Notebook version*: **0.1.0**
-- *Prerequisites*:  **types**, **customtypes** and **functions** notebooks
+- *Prerequisites*:  **types**, and **customtypes** notebooks
 """
 
 # ╔═╡ e87c9104-5387-11ec-1ba2-1fd2cde44d32
-md"""# String manipulation
+md"""# Strings and Arrays
 
 > TBA
+
+As array:
+- indexing; `end` as index
+- iteration with `for`
+- `push!` and mutable/immutable objects
+- filter
+- map
+
+String specials
+- interopolation
+- triple quote
+- split; with limit; rsplit
+- replace
+
+
+
+
+"""
+
+# ╔═╡ 9357a67f-fbde-4120-996c-70809bd552af
+belgianbigcities = ["02", "03", "04", "09"]
+
+# ╔═╡ 6cc3df14-aa16-4687-9702-fe9bb2e0b45d
+phone1 = "022186207"
+
+# ╔═╡ 4c08c47e-6808-4d0f-a028-62100a6ae7c9
+phone2 = "010233659"
+
+# ╔═╡ 80bfe858-f46b-48a1-9962-e2ce9e86d162
+if phone1[1:2] in belgianbigcities
+	"$(phone1) is a big city"
+	
+else
+	"$(phone1) is not such a big city"
+end
+
+
+# ╔═╡ 59ce0baa-2eff-4b60-8481-b40d67b4a37b
+if phone2[1:2] in belgianbigcities
+	"$(phone2) is a big city"
+	
+else
+	"$(phone2) is not such a big city"
+end
+
+# ╔═╡ 06cbbd1a-f2e1-4001-ab6c-2cb31fc7a67e
+if phone1[1:2] in belgianbigcities
+	pieces1 = [
+		phone1[1:2],
+		phone1[3:5],
+		phone1[6:7],
+		phone1[8:9]
+	]
+	 join(pieces1,"-")
+else
+	pieces1 = [
+		phone1[1:3],
+		phone1[4:5],
+		phone1[6:7],
+		phone1[8:9]
+	]
+	join(pieces1,"-")
+end
+
+# ╔═╡ 8f5b35ad-dcd9-4867-8ec9-e2136dd03095
+if phone2[1:2] in belgianbigcities
+	pieces2 = [
+		phone2[1:2],
+		phone2[3:5],
+		phone2[6:7],
+		phone2[8:9]
+	]
+	 join(pieces2,"-")
+else
+	pieces2 = [
+		phone2[1:3],
+		phone2[4:5],
+		phone2[6:7],
+		phone2[8:9]
+	]
+	join(pieces2,"-")
+end
+
+# ╔═╡ 3b10f0e9-8e90-4a84-b94e-b880a78f7580
+html"""
+
+<br/><br/><br/><br/><br/>
+<hr/><br/>
+<p>Old to quarry</p>
 """
 
 # ╔═╡ af713e4c-fee1-450c-ae0f-3091a2cbc877
@@ -99,6 +188,14 @@ checkisbn10sum("0306406152")
 # ╔═╡ Cell order:
 # ╟─26cc2a51-2e2b-459c-8e5a-e3d7bb55d918
 # ╠═e87c9104-5387-11ec-1ba2-1fd2cde44d32
+# ╠═9357a67f-fbde-4120-996c-70809bd552af
+# ╠═6cc3df14-aa16-4687-9702-fe9bb2e0b45d
+# ╠═4c08c47e-6808-4d0f-a028-62100a6ae7c9
+# ╠═80bfe858-f46b-48a1-9962-e2ce9e86d162
+# ╠═59ce0baa-2eff-4b60-8481-b40d67b4a37b
+# ╠═06cbbd1a-f2e1-4001-ab6c-2cb31fc7a67e
+# ╠═8f5b35ad-dcd9-4867-8ec9-e2136dd03095
+# ╠═3b10f0e9-8e90-4a84-b94e-b880a78f7580
 # ╠═af713e4c-fee1-450c-ae0f-3091a2cbc877
 # ╟─d5197da0-4881-44f3-bc2d-76efdfafb797
 # ╠═4758fd91-780d-40cc-9ed9-9ab883871bc8
