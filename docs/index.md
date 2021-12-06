@@ -16,7 +16,7 @@ I especially hope that these notebooks might be useful for students interested i
 
 >  **NB**: Each notebook displays a version number using the major/minor/patch scheme of [semantic versioning](https://semver.org).  Versions < 1.0.0 are incomplete work in progress. Changes in **major** number indicate a change incompatible or conflicting with the previous version.  Changes in **minor** number indicate addition of new material compatible with the prior version.  Changes in **patch** numbers indicate correction of errors.
 
-As these eight notebooks introduce you to some fundamentals of the Julia language, you will gradually build up an interactive application for managing a contacts list with names and phone numbers of people and businesses.
+As these notebooks introduce you to some fundamentals of the Julia language, you will gradually build up an interactive application for managing a contacts list with names and phone numbers of people and businesses.
 
 1. [Objects, variables and types](./fundamentals/types.html):  *v. 1.0.0*
 1. [Custom types](./fundamentals/customtypes.html):  *v. 1.0.0*
