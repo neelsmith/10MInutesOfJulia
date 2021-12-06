@@ -20,10 +20,9 @@ As these eight notebooks introduce you to some fundamentals of the Julia languag
 
 1. [Objects, variables and types](./fundamentals/types.html):  *v. 1.0.0*
 1. [Custom types](./fundamentals/customtypes.html):  *v. 1.0.0*
-1. [Functions](./fundamentals/functions.html) (forthcoming)
-1. String manipulation.
-1. Arrays.
+1. String and arrays.
 1. Dictionaries
+1. [Functions](./fundamentals/functions.html) (forthcoming)
 1. Reading and writing (IO)
 1. Putting together an interactive app with PlutoUI widgets
 
