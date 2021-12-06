@@ -213,7 +213,7 @@ santa = Person("Kris", "Kringle", santaphone)
 
 # ╔═╡ fd4a8bed-7f69-4377-873f-0a165be38851
 md"""
-In the next notebook [introducing functions](https://neelsmith.github.io/10MinutesOfJulia/fundamentals/types.html) we'll see how you can make our custom types much more useful by writing functions that work with them.
+In the 10-minute notebook [introducing functions](https://neelsmith.github.io/10MinutesOfJulia/fundamentals/types.html) we'll see how you can make our custom types much more useful by writing functions that work with them.
 """
 
 # ╔═╡ Cell order:
@@ -249,17 +249,17 @@ In the next notebook [introducing functions](https://neelsmith.github.io/10Minut
 # ╟─5a49e37b-5e5b-4de1-b05e-173bcec00d3b
 # ╟─8e97804c-bdb2-455f-9542-90620bb75151
 # ╠═9fde4cfa-dff5-41d2-bc15-00db9202fc5f
-# ╠═ab699e2b-c106-456d-aeae-f150807ab645
+# ╟─ab699e2b-c106-456d-aeae-f150807ab645
 # ╠═9bb30356-9025-402b-bc8f-56a16d663983
 # ╟─e90c18ed-4831-42a5-880c-c84403b67974
 # ╠═e7e09c11-d58a-480b-b91a-6ba049c562b5
 # ╠═6269ef53-82c0-4548-95f2-bc03bdffec1a
-# ╠═dcf1cd33-9002-4639-b677-e5e9dbec60d8
+# ╟─dcf1cd33-9002-4639-b677-e5e9dbec60d8
 # ╠═e748d5dd-9d24-4173-b062-525f03f5cdca
 # ╠═73efba3b-d270-4e19-b1ff-2d5f1a6aa8a5
 # ╟─f22692ca-11a6-4faf-acf5-4ef7a90747cc
 # ╠═31fb6db9-3712-45dd-ac84-24c939f69c2f
-# ╠═cde8b8f3-6bf5-4573-9894-07222cfd673f
+# ╟─cde8b8f3-6bf5-4573-9894-07222cfd673f
 # ╠═65c36451-329f-49ff-a29b-881834fc5bd6
 # ╠═da1f0c8c-328e-477a-9bf7-cd6d40777191
 # ╟─fd4a8bed-7f69-4377-873f-0a165be38851
